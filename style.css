@@ -1,0 +1,18 @@
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+nav{
+    display: flex;
+}
+
+.nav-title{
+    font-weight: 900;
+    font-size: 34px;
+}
