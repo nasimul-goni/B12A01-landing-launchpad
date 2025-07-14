@@ -68,6 +68,11 @@ nav a{
     margin: 152px 267.5px ;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .webflow{
     display: flex;
     justify-content:space-between;
@@ -106,4 +111,36 @@ nav a{
 .btn-launch-live{
     margin-bottom: 0;
 
+}
+
+.productive-users{
+    padding: 50px 142px;
+    background-color: #b1afec;
+    margin: 116px 159px 137px 141px;
+    align-items: center;
+}
+
+.productive-users-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+}
+
+.productivity{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 40px ;
+
+}
+
+.ratio{
+    text-align: center;
+    
+}
+
+.productivity-heading{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
 }
