@@ -1,4 +1,5 @@
 
+
 .inter-uniquifier {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -65,4 +66,44 @@ nav a{
     justify-content: center;
     text-align: center;
     margin: 152px 267.5px ;
+}
+
+.webflow{
+    display: flex;
+    justify-content:space-between;
+    margin: 116px 141px 116px 159px;
+    align-items: center;
+    text-align: center;
+}
+
+.content-heading{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    margin-top: 0;
+}
+
+.content-para{
+    font-size: 24px;
+    color: #252432;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    
+}
+
+.content{
+    text-align: left;
+    max-width: 517px;
+            
+}
+
+.content-image{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
+
+.btn-launch-live{
+    margin-bottom: 0;
+
 }
