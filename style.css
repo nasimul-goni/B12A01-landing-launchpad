@@ -6,13 +6,40 @@
   font-style: normal;
 }
 
+.raleway-uniquifier {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin:0px 158px;
 }
 
 .nav-title{
     font-weight: 900;
     font-size: 34px;
+    color: #4E47FF;
+}
+
+nav a{
+    text-decoration: none;
+           
+}
+
+.btn-primary{
+    background-color:#4E47FF ;
+    font-weight: bold;
+    color: #D9D9D9;
+    padding: 12px 36px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-shadow: 1px 5px 10px black
+        
 }
