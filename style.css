@@ -1,20 +1,19 @@
-
 .inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 
 .raleway {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
-header{
+header {
     background-image: url(./Assets/Hero-bg.png);
     width: 1440px;
     height: 698px;
@@ -23,10 +22,10 @@ header{
     padding-bottom: 200px;
 }
 
-nav{
+nav {
     width: 1140px;
     height: 151px;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +33,7 @@ nav{
     margin: 0 150px 0 150px;
 }
 
-.logo{
+.logo {
     width: 99px;
     height: 51px;
     font-weight: 900px;
@@ -54,7 +53,7 @@ nav{
 
 }
 
-.banner{
+.banner {
     width: 905px;
     height: 237px;
     display: flex;
@@ -66,7 +65,7 @@ nav{
     margin: 158px 267.5px 152px 267.5px;
 }
 
-.banner-para{
+.banner-para {
     width: auto;
     height: 152px;
     font-weight: bold;
@@ -76,8 +75,8 @@ nav{
     margin-bottom: 85px;
 }
 
-.webflow{
-    width:1140px;
+.webflow {
+    width: 1140px;
     height: auto;
     margin: 116px 159px 116px 141px;
     display: flex;
@@ -85,25 +84,25 @@ nav{
     justify-content: space-between;
 }
 
-.action{
+.action {
     width: 517px;
     height: 203px;
     gap: 23px;
     margin: 62.5px 220px 62.5px 0;
 }
 
-.action-heading{
+.action-heading {
     font-weight: 900px;
     font-size: 42px;
 }
 
-.action-para{
+.action-para {
     font-weight: 400px;
     font-size: 24px;
     color: #252432;
 }
 
-.webflow-image{
+.webflow-image {
     width: 403px;
     height: 328px;
     border-radius: 48px;
@@ -120,26 +119,26 @@ nav{
     gap: 10px;
 }
 
-.users-static{
+.users-static {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.users-data{
+.users-data {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 158px;
 }
 
-.user-heading{
+.user-heading {
     font-weight: 400px;
     font-size: 38px;
     color: #252432;
 }
 
-.users-data1{
+.users-data1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -148,26 +147,27 @@ nav{
     gap: 0px;
 }
 
-.users-data-heading{
+.users-data-heading {
     font-weight: 400px;
     font-size: 80px;
     color: #4E47FF;
 }
 
-.user-data-para{
+.user-data-para {
     font-weight: 200px;
     font-size: 20px;
-    color:rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
 }
 
-.review{
+.review {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     margin: 137px 151px;
 }
-.review-list{
+
+.review-list {
     justify-content: flex-start;
     box-sizing: border-box;
     border: 1px solid rgb(242, 237, 237);
@@ -177,12 +177,13 @@ nav{
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.reviewer-comments{
+.reviewer-comments {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
-.star{
+
+.star {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -191,7 +192,7 @@ nav{
     padding: 0;
 }
 
-.reviewer-info{
+.reviewer-info {
     width: 318.67px;
     height: 46px;
     display: flex;
@@ -199,38 +200,48 @@ nav{
     justify-content: flex-start;
 }
 
-.reviewer-image{
+.reviewer-image {
     border-radius: 50%;
 }
 
 
-.rev{
+.rev {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 
 }
 
-.rev1{
+.rev1 {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 
 .newslatter {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 2rem;
-      gap: 4rem;
-      flex-wrap: wrap;
-    }
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 200px;
+    gap: 233px;  
+        
+}
 
-    .newslatter-form {
-      max-width: 400px;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      gap: 19px;
-    }
+.newslatter-heading{
+    font-weight: 700px;
+    font-size: 70px;
+    align-items: left;
+}
+
+.newslatter-form {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    
+}
+
