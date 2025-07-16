@@ -13,6 +13,7 @@
     font-style: normal;
 }
 
+
 header {
     background-image: url(./Assets/Hero-bg.png);
     width: 1440px;
@@ -245,3 +246,39 @@ nav {
     
 }
 
+.contact-details{
+    background: rgb(255, 255, 255);
+    max-width: 1440px;
+    align-items: center;
+    padding:104px 455px;
+    text-align: center;
+}
+
+
+.contact-titles{
+    font-weight: 900px;
+    font-size: 100px;
+    color: #4E47FF;
+
+}
+
+.contact-descriptions{
+    font-weight: 400px;
+    font-size: 16px;
+    color: rgb(137, 135, 161);
+
+}
+
+.contact-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.contact-item{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #8987A1;
+
+}
